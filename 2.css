@@ -1,0 +1,147 @@
+.ss{
+margin: 50px 50px;
+}
+.aa{
+ margin-left: 25px;
+}
+.ee{
+    margin-left: 25px; 
+}
+.qq{
+    margin-left: 25px; 
+}
+.ww{
+    margin-left: 25px; 
+}
+.ll{
+    margin-left: 25px; 
+}
+.pp{
+    margin-left: 25px; 
+}
+.ff{
+    margin-left: 25px; 
+}
+.cc{
+    margin-left: 25px; 
+}
+.pro{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.hh{
+    padding-top: 10px;
+}
+.sss {
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    background: #f2f2f2;
+}
+.sss form {
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    display: grid;
+    gap: 40px;
+    padding: 20px 100px;
+}
+.sss form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sss .title {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.sss form div label {
+    padding: 5px;
+    display: block;
+    width: 120px;
+}
+.sss form div input,
+.sss form div textarea{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+.sss form div input:focus,
+.sss form div textarea:focus {
+    outline: none;
+}
+.sss form div textarea {
+    resize: none;
+}
+.sss form .ss {
+    justify-content: flex-start;
+}
+.sss form div input[type="submit"] {
+    width: fit-content;
+    margin-left: 30px;
+    padding: 10px 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.sss form div input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #191919;
+    color: white;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0 0;
+    background-color: #191919;
+    width: 100%;
+    text-align: center;
+}
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social li {
+    margin-right: 25px;
+}
+footer .social a {
+    background-color: #313131;
+    text-decoration: none;
+    color: #b9b9b9;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+footer .social li .facebook:hover {
+    background-color: #1877f2;
+}
+footer .social li .youtube:hover {
+    background-color: #ff0000;
+}
+footer .social li .twitter:hover {
+    background-color: #1da1f2;
+}
+footer p {
+    padding: 25px 0;
+    text-align: center;
+    color: white;
+    margin: 50px 0 0;
+    border-top: 1px solid #444;
+}
+.pro {
+    flex-wrap: wrap;
+}
+.fff {
+    flex-wrap: wrap;
+}
